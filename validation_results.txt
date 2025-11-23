@@ -1,0 +1,128 @@
+Compilation and Run Summary
+
+--- avl.cpp ---
+Compile return code: 0
+Run result: 0
+Run output:
+----- AVL TREE DEMO -----
+Inserted 10, Inorder: 10 
+Inserted 20, Inorder: 10 20 
+Inserted 30, Inorder: 10 20 30 
+Inserted 40, Inorder: 10 20 30 40 
+Inserted 50, Inorder: 10 20 30 40 50 
+Inserted 25, Inorder: 10 20 25 30 40 50 
+Search 25: Found
+Search 100: Not Found
+
+
+--- bst.cpp ---
+Compile return code: 0
+Run result: 0
+Run output:
+----- BST DEMO -----
+Inserted 50
+Inserted 30
+Inserted 20
+Inserted 40
+Inserted 70
+Inserted 60
+Inserted 80
+Inorder: 20 30 40 50 60 70 80 
+Preorder: 50 30 20 40 70 60 80 
+Postorder: 20 40 30 60 80 70 50 
+Found 60
+Requested removal of 50
+Inorder: 20 30 40 60 70 80 
+Preorder: 60 30 20 40 70 80 
+Postorder: 20 40 30 80 70 60 
+50 not found
+
+
+--- circular_linked_list.cpp ---
+Compile return code: 0
+Run result: 0
+Run output:
+----- CIRCULAR LINKED LIST DEMO -----
+Inserted 10 as the only element
+Inserted 20 at end (circular)
+Inserted 30 at end (circular)
+Circular List: 10 -> 20 -> 30
+Found 20 at position 2
+Removed 20
+Circular List: 10 -> 30
+99 not found
+Removed 10
+Removed 30 (list becomes empty)
+Circular List: Empty
+
+
+--- doubly_linked_list.cpp ---
+Compile return code: 0
+Run result: 0
+Run output:
+----- DOUBLY LINKED LIST DEMO -----
+Inserted 20 at beginning
+Inserted 40 at end
+Inserted 10 at beginning
+Inserted 50 at end
+Forward: 10 <-> 20 <-> 40 <-> 50
+Backward: 50 <-> 40 <-> 20 <-> 10
+Removed 10 from beginning
+Forward: 20 <-> 40 <-> 50
+Removed 50 from end
+Forward: 20 <-> 40
+Removed 40 from end
+Removed 20 from end
+List empty
+
+
+--- queue.cpp ---
+Compile return code: 0
+Run result: 0
+Run output:
+----- QUEUE DEMO -----
+Enqueued 10
+Enqueued 20
+Enqueued 30
+Queue: 10 <- 20 <- 30
+Dequeued 10
+Queue: 20 <- 30
+Enqueued 40
+Queue: 20 <- 30 <- 40
+Dequeued 20
+Dequeued 30
+Dequeued 40
+Exception: Queue empty
+
+
+--- singly_linked_list.cpp ---
+Compile return code: 0
+Run result: 0
+Run output:
+----- SINGLY LINKED LIST DEMO -----
+Inserted 30 at beginning
+Inserted 20 at beginning
+Inserted 10 at beginning
+List: 10 -> 20 -> 30
+Inserted 25 at position 3
+List: 10 -> 20 -> 25 -> 30
+Found 25 at position 3
+Removed 10 from beginning
+List: 20 -> 25 -> 30
+Removed 30 from position 3
+List: 20 -> 25
+100 not found
+
+
+--- stack_evaluation.cpp ---
+Compile return code: 0
+Run result: 0
+Run output:
+----- STACK EVALUATION DEMO -----
+Postfix: 2 3 1 * + 9 -
+Postfix evaluation result: -4
+
+Prefix: - + 2 * 3 1 9
+Prefix evaluation result: -4
+
+
